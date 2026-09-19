@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Send Worldwide — TikTok Prototype</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">♪</span>
+      Send Worldwide
+    </div>
+
+    <span class="prototype">
+      TIKTOK FEATURE PROTOTYPE
+    </span>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          ONE CLICK. GLOBAL DISTRIBUTION.
+        </p>
+
+        <h1>
+          Send your video
+          <br>
+          <span>worldwide.</span>
+        </h1>
+
+        <p class="lead">
+          A proposed TikTok feature where one click starts automatic
+          distribution to every account covered by the feature.
+          No recipient selection required.
+        </p>
+
+        <button id="sendWorldwide" class="worldwide-btn">
+          <span>🌎</span>
+          SEND WORLDWIDE
+          <b>↗</b>
+        </button>
+
+        <p class="demo-note">
+          Prototype only — delivery is simulated with fictional accounts.
+        </p>
+
+      </div>
+
+
+      <!-- PHONE PREVIEW -->
+      <div class="phone">
+
+        <div class="phone-status">
+          9:41
+          <span>● ● ●</span>
+        </div>
+
+        <div class="video-preview">
+
+          <div class="play">
+            ▶
+          </div>
+
+          <small>
+            @creator · Original video
+          </small>
+
+        </div>
+
+        <p class="phone-caption">
+          My newest video 🌎
+        </p>
+
+        <button class="phone-button">
+          🌎 Send Worldwide
+        </button>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- DASHBOARD -->
+    <section class="panel">
+
+      <div class="panel-head">
+
+        <div>
+
+          <p class="eyebrow">
+            LIVE DISTRIBUTION
+          </p>
+
+          <h2>
+            Worldwide dashboard
+          </h2>
+
+        </div>
+
+        <span id="statusBadge" class="badge">
+          READY
+        </span>
+
+      </div>
+
+
+      <!-- STATISTICS -->
+      <div class="stats">
+
+        <div>
+          <strong id="total">
+            0
+          </strong>
+
+          <span>
+            Accounts processed
+          </span>
+        </div>
+
+
+        <div>
+          <strong id="delivered">
+            0
+          </strong>
+
+          <span>
+            Delivered
+          </span>
+        </div>
+
+
+        <div>
+          <strong id="remaining">
+            0
+          </strong>
+
+          <span>
+            Remaining
+          </span>
+        </div>
+
+      </div>
+
+
+      <!-- PROGRESS -->
+      <div class="progress">
+
+        <div id="progressBar"></div>
+
+      </div>
+
+      <p id="progressText" class="progress-text">
+        Press Send Worldwide to begin.
+      </p>
+
+
+      <!-- ACCOUNT TABLE -->
+      <div class="table-wrap">
+
+        <table>
+
+          <thead>
+
+            <tr>
+              <th>Account ID</th>
+              <th>Name</th>
+              <th>Status</th>
+              <th>Processed</th>
+            </tr>
+
+          </thead>
+
+          <tbody id="accountTable">
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- CONCEPT -->
+    <section class="concept">
+
+      <p class="eyebrow">
+        THE CORE IDEA
+      </p>
+
+      <h2>
+        No recipient selection.
+      </h2>
+
+
+      <div class="cards">
+
+        <article>
+
+          <b>01</b>
+
+          <h3>
+            Select a video
+          </h3>
+
+          <p>
+            The creator chooses the TikTok video to distribute.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <b>02</b>
+
+          <h3>
+            Click once
+          </h3>
+
+          <p>
+            The creator presses Send Worldwide.
+            No IDs or recipients need to be entered.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <b>03</b>
+
+          <h3>
+            Automatic distribution
+          </h3>
+
+          <p>
+            TikTok's system determines the covered audience
+            and handles delivery.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <b>04</b>
+
+          <h3>
+            See everyone
+          </h3>
+
+          <p>
+            The dashboard displays account IDs,
+            names, and delivery status.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <strong>
+      Send Worldwide
+    </strong>
+
+    <span>
+      Product concept · Not connected to TikTok
+    </span>
+
+  </footer>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
